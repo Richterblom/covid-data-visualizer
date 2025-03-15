@@ -1,0 +1,49 @@
+/* Center the header */
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Center the chart and makes it responsive */
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Fix chart size */
+canvas {
+    max-width: 80vw;
+    max-height: 60vh;
+}
+
+/* Basic button styling */
+.btn {
+    padding: 10px 20px;             /* Add padding to make the button bigger */
+    font-size: 12px;                /* Set the font size */
+    font-weight: bold;              /* Make the text bold */
+    border: none;                   /* Remove the default border */
+    border-radius: 5px;             /* Rounded corners */
+    cursor: pointer;               /* Change the cursor to a pointer on hover */
+    transition: background-color 0.3s, transform 0.2s;  /* Add smooth transition for hover effect */
+  }
+  
+  /* Blue button style */
+  .btn-blue {
+    background-color: #007BFF;      /* Set the background color to blue */
+    color: white;                   /* Set the text color to white */
+  }
+  
+  /* Hover effect for the button */
+  .btn-blue:hover {
+    background-color: #0056b3;      /* Darker blue on hover */
+    transform: scale(1.05);          /* Slightly enlarge the button on hover */
+  }
+  
+  /* Focus effect for accessibility */
+  .btn-blue:focus {
+    outline: none;                  /* Remove the default focus outline */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.8);  /* Add a blue outline on focus */
+  }
